@@ -21,6 +21,9 @@ set(SRV_FILES
         "srv/HeadLightControlSrv.srv"
         "srv/TailLightControlSrv.srv"
         "srv/LegLightControlSrv.srv"
+        "srv/RgbControllerSrv.srv"
+        "srv/PlayAudioSystemPrompts.srv"
+        "srv/PlayAudioWithFilePath.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
