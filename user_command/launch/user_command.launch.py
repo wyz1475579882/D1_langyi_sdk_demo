@@ -35,7 +35,6 @@ def generate_launch_description():
             package='user_command',
             executable='user_command_node',
             name='user_command_node',
-            namespace=tita_namespace,
             output='screen',
             parameters=[config]
         )
